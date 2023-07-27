@@ -132,3 +132,7 @@ footer {
 .left {
 	width: 200px;
 }
+
+.form-buttons {
+	padding: 5px;
+}
