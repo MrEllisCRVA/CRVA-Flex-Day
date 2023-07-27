@@ -37,10 +37,14 @@ h1 {
 	font-weight:400;
 }
 
-h1, h2 {
+h1, h2, th {
   text-align: center;
   font-family: Polly, Helvetica, Arial, sans-serif;
   margin-bottom: 10px;
+}
+
+th {
+	font-size: 2rem;
 }
 
 body {
