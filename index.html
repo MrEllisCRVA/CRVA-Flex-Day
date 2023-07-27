@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Will alternate adding content, getting design right, then more content -->
+<!-- TODO: Add footer content, get alignment done properly, appropriate images, coloring, and style. -->
+
+<html lang="en">
+    <head>
+        <title>CodeRVA Flex Day</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/flex-day.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <!-- CodeRVA logo will likely need to stay an image, but Flex Day should be represented in text. -->
+            <div id="top-logo">
+            <img src="./images/crva-logo.png" alt="school logo" id="logo">
+            <h1>Flex Day</h1>
+            </div>
+            <nav>
+                <a href="./index.html"><strong>Home</strong></a>
+                <a href="./about.html">About</a>
+                <a href="./am-activities.html">Morning Activities</a>
+                <a href="./pm-activities.html">Afternoon Activities</a>
+                <a href="./ssr.html">SSR</a>
+                <a href="./sign-up.html">Sign-Up</a>
+            </nav>
+        </header>
+
+        <!-- Likely to include sections within to allow for background coloring, but this is fine for now -->
+        <div id="main-content">
+            <section id="left-column" class="column">
+                
+                <img src="./images/flex-students.JPG" id="students" alt="Students sitting at tables">
+
+                <div id="calendar">
+                    <h2>Upcoming Flex Days</h2>
+                    <ul>
+                        <li>September 13</li>
+                        <li>October 18</li>
+                        <li>November 15</li>
+                        <li>December 9</li>
+                    </ul>
+                </div>
+            </section>
+
+        <!-- Table content needs to be scaled appropriately. This is one of the most important parts of the home page. Will get referenced frequently -->
+            <section id="right-column" class="column">
+                <h2>Flex Day Schedule</h2>
+                <table>
+                    <tr>
+                        <td>8:50 - 9:20</td>
+                        <td>Morning Meeting</td>
+                    </tr>
+                    <tr>
+                        <td>9:24 - 10:40</td>
+                        <td>Morning Activities</td>
+                    </tr>
+                    <tr>
+                        <td>10:40 - 11:10</td>
+                        <td>SSR</td>
+                    </tr>
+                    <tr>
+                        <td>11:12 - 12:48</td>
+                        <td>Lunch</td>
+                    </tr>
+                    <tr>
+                        <td>12:52 - 1:32</td>
+                        <td>Flex Rotation 1</td>
+                    </tr>
+                    <tr>
+                        <td>1:36 - 2:20</td>
+                        <td>Flex Rotation 2</td>
+                    </tr>
+                    <tr>
+                        <td>2:24 - 2:56</td>
+                        <td>Flex Rotation 3</td>
+                    </tr>
+                </table>
+            </section>
+        
+        </div>
+        <footer>CodeRVA Regional High School</footer>
+    </body>
+</html>
