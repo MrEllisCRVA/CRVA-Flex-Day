@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Will alternate adding content, getting design right, then more content -->
+<!-- TODO: Add footer content, get alignment done properly, appropriate images, coloring, and style. -->
+
+<html lang="en">
+    <head>
+        <title>CodeRVA Flex Day</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/flex-day.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <!-- CodeRVA logo will likely need to stay an image, but Flex Day should be represented in text. -->
+            <div id="top-logo">
+            <img src="./images/crva-logo.png" alt="school logo" id="logo">
+            <h1>Flex Day</h1>
+            </div>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./am-activities.html">Morning Activities</a>
+                <a href="./pm-activities.html">Afternoon Activities</a>
+                <a href="./ssr.html">SSR</a>
+                <a href="./sign-up.html"><strong>Sign-Up</strong></a>
+            </nav>
+        </header>
+
+        <!-- Likely to include sections within to allow for background coloring, but this is fine for now -->
+        <div id="main-content">
+            <div id="student-form">
+                <h2>Flex Day Sign Up</h2>
+                <form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+                    Student Name<br> <input type="text" name="Name" size="40"><br><br>
+                    Student Email<br> <input type="text" name="Name" size="40"><br><br>
+                    Flex 1 Activity<br> <select id="flex1">
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="legos">Legos</option>
+                        <option value="sca">SCA</option>
+                        <option value="esports">eSports</option>
+                    </select><br><br>
+                    Flex 2 Activity<br> <select id="flex2">
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="legos">Legos</option>
+                        <option value="sca">SCA</option>
+                        <option value="esports">eSports</option>
+                    </select><br><br>
+                    Flex 3 Activity<br> <select id="flex3">
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="legos">Legos</option>
+                        <option value="sca">SCA</option>
+                        <option value="esports">eSports</option>
+                    </select><br><br>
+                    <input type="submit">
+                    <input type="reset">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
