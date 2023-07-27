@@ -1,0 +1,134 @@
+@font-face{
+    font-family: "Polly";
+    src: url('../fonts/Polly-Rounded-Regular.otf');
+}
+
+/* RESET BUILT IN MARGINS */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+nav {
+	margin-top: 10px;
+    background-color: #B5DA83;
+    text-align: center;
+    padding: 50px;
+    font-family: Polly, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: underline #B5DA83;	
+	transition: text-decoration-color 500ms;
+	color:black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    display: inline-block;
+	font-size: 4rem;
+	font-weight:400;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: Polly, Helvetica, Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+table, tr, td, th {
+    border: 2px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 10px auto;
+    width: 90%;
+}
+
+li {
+	padding-bottom:5px;
+}
+
+footer {
+    display:block;
+    clear:both;
+    padding-left:20%;
+    font-size: 24px;
+}
+
+#filler {
+	background-color: #B5DA83;
+}
+
+#calendar {
+    background-color: #F48CB7;
+	padding: 10px 30px;	
+	border-radius: 10px;
+}
+
+#speaker {
+	width: 100%;
+	display: inline-block;
+}
+
+#main-content {
+    margin: 10px auto;
+    width: 60%;
+    min-width: 600px;
+}
+
+#left-column {
+    display: inline-block;
+	margin-left: 10%;
+}
+
+#right-column {
+    display: inline;
+    background-color: #79C1F1;
+	padding: 10px 30px;
+}
+
+#top-logo {
+    margin: 50px;
+    display:inline;
+}
+
+#logo {
+  width: 200px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#students, #legos {
+    width: 100%;
+    border-radius:10px;
+}
+
+#student-form {
+    background-color: #79C1F1;
+    padding: 50px;
+}
+
+.column {
+    width: 40%;
+    float: left;
+    margin: 10px;
+	border-radius:10px;
+}
+
+.left {
+	width: 200px;
+}
